@@ -82,7 +82,10 @@ Result: 5.00
 🔹 Conclusion:
 
 This program successfully performs basic arithmetic operations based on user input. It demonstrates the use of switch statements, arithmetic operators, and user input handling in the C language.
+
 ⚙️ Advantages and Disadvantages of Calculator in C Language
+
+
 ✅ Advantages:
 
 Simple and Easy to Understand:
