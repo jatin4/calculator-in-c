@@ -82,3 +82,40 @@ Result: 5.00
 🔹 Conclusion:
 
 This program successfully performs basic arithmetic operations based on user input. It demonstrates the use of switch statements, arithmetic operators, and user input handling in the C language.
+⚙️ Advantages and Disadvantages of Calculator in C Language
+✅ Advantages:
+
+Simple and Easy to Understand:
+The calculator program in C is very easy to write and understand, especially for beginners learning basic programming concepts.
+
+Fast Execution:
+Since C is a compiled language, the calculator executes very quickly compared to interpreted languages.
+
+Low Memory Usage:
+C programs use very little memory, making the calculator efficient and lightweight.
+
+Portable:
+The program can run on different systems (Windows, Linux, macOS) without major changes in code.
+
+Strong Understanding of Logic:
+Writing a calculator helps students learn how to use operators, switch-case statements, and handle user input/output effectively.
+
+Good Foundation for Larger Projects:
+This calculator forms the base for understanding how complex applications like scientific or financial calculators can be developed later.
+
+❌ Disadvantages:
+
+Limited Functionality:
+The basic calculator only performs simple arithmetic operations. It cannot handle advanced functions like square roots, powers, or trigonometric calculations.
+
+No Graphical Interface:
+The calculator runs only in the terminal (console), so it doesn’t have buttons or GUI like modern calculators.
+
+No Error Handling for All Cases:
+Although division by zero is handled, other invalid inputs (like alphabets instead of numbers) can still cause errors.
+
+Difficult for Non-Programmers:
+Users must run the program through a compiler or terminal, which can be hard for people without programming knowledge.
+
+Static Input:
+The calculator only works for two numbers at a time; it can’t handle long mathematical expressions or multiple-step calculations.
