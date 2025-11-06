@@ -1,3 +1,39 @@
+🧮 Description of Calculator Program in C Language
+
+The C programming language is a powerful and widely used programming language developed by Dennis Ritchie at Bell Labs in 1972.
+It is known as a structured, procedural, and middle-level language, which provides both low-level (hardware) and high-level (software) capabilities.
+
+In this project, we have used C language to create a simple calculator that performs basic arithmetic operations like Addition, Subtraction, Multiplication, and Division.
+
+The calculator program uses variables, operators, and a switch-case control structure to perform operations based on the user’s choice.
+It also uses input/output functions like printf() and scanf() from the standard input/output library <stdio.h> to interact with the user.
+
+The key concept demonstrated in this program includes:
+
+Taking input from the user
+
+Using arithmetic operators (+, -, *, /)
+
+Decision making using switch statement
+
+Displaying output based on user input
+
+This calculator program helps beginners understand how logic, control flow, and mathematical operations work together in C.
+It is one of the best examples to start learning programming because it covers almost all the basic elements of C language like:
+
+Variables
+
+Data types
+
+Operators
+
+Control statements
+
+Input/Output functions
+
+🧠 In short:
+
+The calculator in C language is a simple program that performs basic arithmetic operations using user input and displays the result. It demonstrates the fundamental building blocks of C programming such as operators, conditional statements, and input/output handling.
 🔹 Aim:
 
 To write a program in C language to perform basic arithmetic operations — Addition, Subtraction, Multiplication, and Division.
