@@ -1,2 +1,48 @@
-# calculator-in-c
-A simple calculator program in C that performs basic arithmetic operations like addition, subtraction, multiplication, and division. Designed for beginners to understand C programming concepts such as functions, operators, and user input.
+🔹 Aim:
+
+To write a program in C language to perform basic arithmetic operations — Addition, Subtraction, Multiplication, and Division.
+
+🔹 Objective:
+
+The objective of this program is to create a simple calculator using the C programming language that takes two numbers and an operator as input and performs the corresponding mathematical operation.
+
+🔹 Algorithm:
+
+Start the program.
+
+Declare variables for numbers and operator.
+
+Ask the user to enter an operator (+, -, *, /).
+
+Ask the user to enter two numbers.
+
+Use a switch statement to perform the operation based on the operator entered.
+
+Display the result.
+
+End the program.
+
+🔹 Output (Examples):
+Output 1:
+Enter an operator (+, -, *, /): +
+Enter two numbers: 10 5
+Result: 15.00
+
+Output 2:
+Enter an operator (+, -, *, /): -
+Enter two numbers: 25 12
+Result: 13.00
+
+Output 3:
+Enter an operator (+, -, *, /): *
+Enter two numbers: 6 4
+Result: 24.00
+
+Output 4:
+Enter an operator (+, -, *, /): /
+Enter two numbers: 20 4
+Result: 5.00
+
+🔹 Conclusion:
+
+This program successfully performs basic arithmetic operations based on user input. It demonstrates the use of switch statements, arithmetic operators, and user input handling in the C language.
