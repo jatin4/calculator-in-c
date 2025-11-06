@@ -122,3 +122,42 @@ Users must run the program through a compiler or terminal, which can be hard for
 
 Static Input:
 The calculator only works for two numbers at a time; it can’t handle long mathematical expressions or multiple-step calculations.
+
+
+
+
+Here’s a list of applications of a calculator program in C language that you can include in your project or report:
+
+⚙️ Applications of Calculator in C Language
+
+Educational Purposes:
+
+Helps beginners understand basic programming concepts such as variables, operators, control structures, and user input/output.
+
+Often used in programming labs and assignments to teach logic building in C.
+
+Basic Arithmetic Computations:
+
+Performs simple operations like addition, subtraction, multiplication, and division.
+
+Can be used for quick calculations in console-based environments.
+
+Scientific and Engineering Calculations (Advanced Versions):
+
+Can be extended to perform complex operations like trigonometric functions, logarithms, powers, and square roots.
+
+Useful for students and professionals in scientific and engineering fields.
+
+Menu-Driven and Interactive Applications:
+
+Forms the basis for developing menu-driven programs that allow users to perform multiple operations in one session.
+
+Demonstrates user interaction and control flow handling.
+
+Embedded System Calculations:
+
+The logic of calculator programs can be integrated into embedded systems (like microcontrollers) for performing real-time mathematical operations.
+
+Foundation for Larger Projects:
+
+Serves as a building block for developing financial applications, data analysis tools, or scientific computation software in C.
