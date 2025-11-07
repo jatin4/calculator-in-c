@@ -161,3 +161,136 @@ The logic of calculator programs can be integrated into embedded systems (like m
 Foundation for Larger Projects:
 
 Serves as a building block for developing financial applications, data analysis tools, or scientific computation software in C.
+
+
+🧠 Concept
+
+A calculator program in C takes two numbers (operands) and an operator (+, -, *, /, etc.) as input, performs the requested arithmetic operation, and displays the result.
+
+Steps:
+
+Get input from the user
+
+The two numbers (operands)
+
+The operation (operator)
+
+Use switch or if-else to decide which arithmetic operation to perform.
+
+Perform the calculation.
+
+Display the result.
+
+🧩 How It Works Internally
+
+Input Handling
+The scanf() function reads input values from the user.
+
+Control Flow
+The switch statement determines which operation to execute based on the operator entered.
+
+Arithmetic Operations
+C uses standard arithmetic operators:
+
++ (addition)
+
+- (subtraction)
+
+* (multiplication)
+
+/ (division)
+
+Output
+The printf() function displays results formatted to two decimal places.
+
+
+
+Can a calculator program handle more complex operations like square root or power?
+
+A calculator program in C can handle more complex operations such as square root, power, trigonometric functions, and many others — by using the math library.
+
+🧮 How to Do It
+
+You just need to include this header file:
+
+#include <math.h>
+
+
+This gives access to a set of mathematical functions like:
+
+Function	Description	Example
+sqrt(x)	Square root	sqrt(16) → 4
+pow(x, y)	Power (x raised to y)	pow(2, 3) → 8
+sin(x)	Sine (in radians)	sin(3.14/2) → 1
+cos(x)	Cosine	cos(0) → 1
+tan(x)	Tangent	tan(45 * 3.14/180) → 1
+log(x)	Natural logarithm	log(10) → 2.3026
+exp(x)	e raised to x	exp(1) → 2.718
+
+
+⚙️ Compiler Tip
+
+If you’re compiling this program manually (like in a terminal or command prompt), use the math library flag:
+
+gcc calculator.c -o calculator -lm
+
+
+The -lm links the math library.
+
+
+How can you round the output to two decimal places?
+
+In C, you can round or display output to two decimal places using the printf() format specifier.
+
+🧮 Method 1: Using printf() Formatting
+
+If you want to display a floating-point number with two decimal places, use:
+
+printf("%.2lf", number);
+
+🧠 Explanation:
+
+%lf → used for double type.
+
+.2 → means show exactly 2 digits after the decimal point.
+
+Example:
+
+double result = 5.6789;
+printf("Result = %.2lf", result);
+
+
+Output:
+
+Result = 5.68
+
+🧩 Method 2: Using round() Function
+
+If you want to actually round the value (not just display it), use the round() function from <math.h>:
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double num = 5.6789;
+    double rounded = round(num * 100) / 100;  // rounds to 2 decimal places
+    printf("Rounded Value: %.2lf\n", rounded);
+    return 0;
+}
+
+
+Output:
+
+Rounded Value: 5.68
+
+⚙️ Key Difference
+Method	Purpose	Example
+printf("%.2lf", x)	Only formats the display	prints 5.68 but keeps x = 5.6789
+round(x * 100) / 100	Actually changes the value	x becomes 5.68
+
+✅ In your calculator program, you can use:
+
+printf("Result = %.2lf\n", result);
+
+
+to display the result neatly rounded to two decimal places.
