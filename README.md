@@ -7,6 +7,14 @@ In this project, we have used C language to create a simple calculator that perf
 
 The calculator program uses variables, operators, and a switch-case control structure to perform operations based on the user’s choice.
 It also uses input/output functions like printf() and scanf() from the standard input/output library <stdio.h> to interact with the user.
+This calculator program helps beginners understand how logic, control flow, and mathematical operations work together in C. It is one of the best examples to start learning programming because it covers almost all the basic elements of C language like:
+Variables
+Data types
+Operators
+Control statements
+Input/Output functions
+
+
 
 The key concept demonstrated in this program includes:
 
@@ -37,10 +45,40 @@ The calculator in C language is a simple program that performs basic arithmetic 
 🔹 Aim:
 
 To write a program in C language to perform basic arithmetic operations — Addition, Subtraction, Multiplication, and Division.
+🎯 Aim of Calculator in C
+
+The aim of developing a calculator program in C is to design a simple and efficient application that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division using user input. This project helps in understanding the fundamental concepts of the C programming language, including input/output handling, operators, control statements, and functions. It also aims to improve logical thinking and problem-solving skills by applying programming techniques to real-world mathematical operations.
+
 
 🔹 Objective:
 
 The objective of this program is to create a simple calculator using the C programming language that takes two numbers and an operator as input and performs the corresponding mathematical operation.
+🎯 Objectives of Calculator in C
+The main objective of developing a calculator program in C is to perform mathematical operations through programming logic while understanding core C concepts.
+________________________________________
+🧠 Key Objectives:
+1.	Perform Basic Arithmetic Operations
+o	To allow the user to add, subtract, multiply, and divide numbers.
+2.	Understand and Apply Control Structures
+o	To use if-else or switch statements to make decisions based on user input (e.g., which operation to perform).
+3.	Use Functions for Modularity
+o	To divide the program into smaller, reusable parts (e.g., add(), subtract(), etc.) for better organization and readability.
+4.	Handle User Input and Output
+o	To learn how to take input using scanf() and display output using printf() effectively.
+5.	Error Handling
+o	To prevent invalid operations like division by zero and handle unexpected inputs gracefully.
+6.	Implement Loops for Continuous Use
+o	To enable users to perform multiple calculations without restarting the program.
+7.	Use of Header Files and Math Library
+o	To practice including standard libraries like <stdio.h> and <math.h> for additional mathematical functions.
+8.	Enhance Problem-Solving Skills
+o	To develop logical thinking and algorithmic skills while designing the flow of operations.
+________________________________________
+🧩 Optional (Advanced Objectives)
+•	To create a menu-driven calculator using loops and switch.
+•	To use file handling for storing previous calculations.
+•	To develop a scientific calculator with functions like sqrt(), pow(), sin(), cos(), and log().
+
 
 🔹 Algorithm:
 
@@ -78,6 +116,25 @@ Output 4:
 Enter an operator (+, -, *, /): /
 Enter two numbers: 20 4
 Result: 5.00
+⚙️ Algorithm of Calculator in C
+Step 1: Start the program.
+Step 2: Display a menu of operations —
+Addition, Subtraction, Multiplication, Division (and others if included).
+Step 3: Ask the user to enter their choice of operation.
+Step 4: Read the user’s choice using scanf().
+Step 5: Ask the user to enter two numbers (operands).
+Step 6: Read the two numbers.
+Step 7: Use a switch or if-else statement to perform the selected operation:
+•	If choice = 1 → perform addition
+•	If choice = 2 → perform subtraction
+•	If choice = 3 → perform multiplication
+•	If choice = 4 → perform division
+•	Otherwise → display “Invalid choice”
+Step 8: Display the result of the operation using printf().
+Step 9: Ask the user if they want to perform another calculation (optional — using a loop).
+Step 10: If yes, repeat from Step 2; if no, exit the program.
+Step 11: Stop the program.
+
 
 🔹 Conclusion:
 
