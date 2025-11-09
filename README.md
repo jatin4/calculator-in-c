@@ -351,3 +351,35 @@ printf("Result = %.2lf\n", result);
 
 
 to display the result neatly rounded to two decimal places.
+
+function based calculator
+A function-based calculator is a C program that performs arithmetic operations using separate user-defined functions for each operation — like add(), subtract(), multiply(), and divide().
+
+This approach makes the program modular, organized, and easy to debug or extend (for example, to add more operations later).
+
+
+🧩 Advantages of Function-Based Design
+
+Code is organized and easy to understand.
+
+You can reuse functions in other programs.
+
+Easier to add new features (like power, modulus, etc.).
+
+sceintific calculator
+
+A Scientific Calculator in C extends the idea of a normal calculator by including mathematical and trigonometric functions like:
+
+sin(), cos(), tan()
+
+log(), exp(), pow(), sqrt()
+
+Along with basic operations: +, -, *, /, %
+
+These functions come from the math.h header file in C.
+🧠 Key Concepts Used
+Concept	Explanation
+Functions	Each type of operation (basic/scientific) is handled by its own function.
+Header File math.h	Provides mathematical functions like sin(), cos(), sqrt(), etc.
+Switch Case	Used to handle multiple user options.
+Loop (while(1))	Keeps the calculator running until the user chooses to exit.
